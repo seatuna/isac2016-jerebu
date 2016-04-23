@@ -47,29 +47,59 @@
     <h2>Donate</h2>
     <p>Your donation will help</p>
     <ul class="list-inline donate-items">
-      <li class="list-group-item col-xs-3" data-toggle="collapse" data-target="#water">Water</li>
+      <li class="list-group-item col-xs-3" data-toggle="collapse" data-parent="accordion" data-target="#water">Water</li>
       <li class="list-group-item col-xs-3" data-toggle="collapse" data-target="#food">Food</li>
       <li class="list-group-item col-xs-3" data-toggle="collapse" data-target="#medical">Medical Supplies</li>
       <li class="list-group-item col-xs-3" data-toggle="collapse" data-target="#money">Money</li>
     </ul>
 
 
-    <div class="collapse" id="water">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident
+    <div class="collapse donate-items-content" id="water">
+        <h4>Water</h4>
+        <div class="col-sm-6">
+          <div class="input-group">
+            <span class="input-group-addon">Bottles</span>
+            <input type="text" class="form-control" aria-label="Number of Bottles" placeholder="Number of Bottles">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="input-group">
+            <span class="input-group-addon">Money towards Water</span>
+            <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+          </div>
+        </div>
     </div>
 
-    <div class="collapse" id="food">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident
+    <div class="collapse donate-items-content" id="food">
+      <h4>Food</h4>
+      <div class="col-sm-12">
+        <div class="input-group">
+          <span class="input-group-addon">Money towards Food</span>
+          <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+        </div>
+      </div>
     </div>
 
-    <div class="collapse" id="medical">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident
+    <div class="collapse donate-items-content" id="medical">
+      <h4>Medical Supplies</h4>
+      Money going towards medical supplies will be used to purchase first aid kits, masks, and so on.
+      <div class="col-sm-12">
+        <div class="input-group">
+          <span class="input-group-addon">Money towards Medical Supplies</span>
+          <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+        </div>
+      </div>
     </div>
 
-    <div class="collapse" id="money">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident
+    <div class="collapse donate-items-content" id="money">
+      <h4>Money</h4>
+      <div class="col-sm-12">
+        <div class="input-group">
+          <span class="input-group-addon">Money towards Anything</span>
+          <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+        </div>
+      </div>
     </div>
-
 
     <br /><br />
 
