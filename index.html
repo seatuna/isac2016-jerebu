@@ -43,7 +43,23 @@
         cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
         est laborum.</p>
 
-    <div class="donate" id="donate"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum.</p>
+<div class="donate-container">
+    <div class="donate" id="donate">
     <h2>Donate</h2>
     <p>Your donation will help</p>
     <ul class="list-inline donate-items">
@@ -56,16 +72,17 @@
 
     <div class="collapse donate-items-content" id="water">
         <h4>Water</h4>
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
           <div class="input-group">
             <span class="input-group-addon">Bottles</span>
             <input type="text" class="form-control" aria-label="Number of Bottles" placeholder="Number of Bottles">
           </div>
-        </div>
-        <div class="col-sm-6">
+        </div> -->
+        <div class="col-sm-12">
           <div class="input-group">
-            <span class="input-group-addon">Money towards Water</span>
-            <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+            Money towards Water
+            <input type="text" class="form-control water-amount" aria-label="Dollar Amount" placeholder="Dollar Amount"><br/>
+            <button class="btn btn-secondary water-add">Add</button>
           </div>
         </div>
     </div>
@@ -74,19 +91,21 @@
       <h4>Food</h4>
       <div class="col-sm-12">
         <div class="input-group">
-          <span class="input-group-addon">Money towards Food</span>
-          <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+          Money towards Food
+          <input type="text" class="form-control food-amount" aria-label="Dollar Amount" placeholder="Dollar Amount"><br/>
+          <button class="btn btn-secondary food-add">Add</button>
         </div>
       </div>
     </div>
 
     <div class="collapse donate-items-content" id="medical">
       <h4>Medical Supplies</h4>
-      Money going towards medical supplies will be used to purchase first aid kits, masks, and so on.
+      Money going towards medical supplies will be used to purchase first aid kits, masks, and so on.<br/><br/>
       <div class="col-sm-12">
         <div class="input-group">
-          <span class="input-group-addon">Money towards Medical Supplies</span>
-          <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+          Money towards Medical Supplies
+          <input type="text" class="form-control medical-amount" aria-label="Dollar Amount" placeholder="Dollar Amount"><br/>
+          <button class="btn btn-secondary medical-add">Add</button>
         </div>
       </div>
     </div>
@@ -95,15 +114,16 @@
       <h4>Money</h4>
       <div class="col-sm-12">
         <div class="input-group">
-          <span class="input-group-addon">Money towards Anything</span>
-          <input type="text" class="form-control" aria-label="Dollar Amount" placeholder="Dollar Amount">
+          Money towards Anything
+          <input type="text" class="form-control money-amount" aria-label="Dollar Amount" placeholder="Dollar Amount">
+          <button class="btn btn-secondary money-add">Add</button>
         </div>
       </div>
     </div>
 
     <br /><br />
 
-    <div class="locations">
+    <div class="locations donate">
 
       <h3>Where to Donate?</h3>
 
@@ -154,6 +174,22 @@
         <label><input type="checkbox">Where it's needed</label>
       </div>
     </div>
+
+    <div class="donation-summary">
+      <h3>Donation Summary</h3>
+      <p>Water: <span class="donation-water"></span></p>
+      <p>Food: <span class="donation-food"></span></p>
+      <p>Medical: <span class="donation-medical"></span></p>
+      <p>Money: <span class="donation-money"></span></p>
+      <hr>
+      Total: <span class="donation-total"></span>
+    </div>
+
+    <div class="pay">
+      <button class="btn btn-success col-xs-2" type="submit">Pay</button>
+    </div>
+  </div>
+  </div>
 </div>
     </body>
 </html>

@@ -1,8 +1,24 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 
+$red: #ce3d3d;
+$pink: #f5d8d8;
+
 .content {
   margin-top: 5em;
+}
+
+.donate-container {
+  background-color: $red;
+  margin-left: -2em;
+  margin-right: -2em;
+  position: absolute;
+  width: 100%;
+}
+
+.donate {
+  padding: 3em;
+  position: relative;
 }
 
 .donate-items {
@@ -10,5 +26,9 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 }
 
 .donate-items-content {
-  padding: 2em;
+  padding: 4em;
+}
+
+.donation-summary {
+  margin-top: 4em;
 }
