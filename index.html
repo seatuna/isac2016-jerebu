@@ -6,6 +6,9 @@
       <link rel="shortcut icon" href="jerebu-fav.ico" type="image/x-icon"/ >
       <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
+      <script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu3uhvE21ehy7u0kzYJKRTc5RGMgA_Sfw&libraries=visualization">
+</script>
     </head>
     <body class="container-fluid">
 
@@ -30,6 +33,8 @@
 
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#mobile">Mobile App</a></li>
+              <li><a href="https://drive.google.com/file/d/0B07Fw8Q2-WY-bFhBQmFMdENaZFk/view" target="_blank">Pollution Impacts</a>
+              <li><a href="https://drive.google.com/file/d/0B0jKIPfn9ZAua2JscXB4ZUNyV1k/view">Satellite Images</a></li>
               <li><a href="#donate">Donate</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -63,6 +68,19 @@
 <p>Peatlands store huge amount of CO2. When burned, Peat releases huge amount of CO2. During non-fire period, microbe activities in decomposing peat also play a big role in emitting CO 2. During fire periods, the aerosol emitted from the fires contain huge amount of black carbon which is one of the important components in the atmosphere that contribute to global warming and air pollution in Southeast Asia.</p>
 
 <br/><br/>
+
+<!-- Map -->
+<div>
+<div id="map"></div>
+    <!-- <div id="floating-panel">
+      <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+      <button onclick="changeGradient()">Change gradient</button>
+      <button onclick="changeRadius()">Change radius</button>
+      <button onclick="changeOpacity()">Change opacity</button>
+    </div> -->
+  </div>
+
+    <!-- End Map -->
 
         <div class="mobile" id="mobile">
           <h2>Mobile App</h2>
@@ -111,10 +129,10 @@
 
     <div class="collapse donate-items-content" id="medical">
       <h4>Medical Supplies</h4>
-      <!-- Money going towards medical supplies will be used to purchase first aid kits, masks, and so on.<br/><br/> -->
+        For more information about medical supplies <a href="https://drive.google.com/file/d/0B07Fw8Q2-WY-OVpEMmlnZFBISlk/view" target="_blank">click here</a><br/><br/>
       <div class="col-sm-12">
         <div class="input-group">
-          Money towards Medical Supplies
+          Money towards Medical Supplies<br/>
           <input type="text" class="form-control medical-amount" aria-label="Dollar Amount" placeholder="Dollar Amount"><br/>
           <button class="btn btn-secondary medical-add">Add</button>
         </div>
