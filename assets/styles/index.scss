@@ -2,23 +2,31 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 
 $red: #ce3d3d;
-$pink: #f5d8d8;
+$pink: #df5e5e;
+$orange: #f1ae4c;
+$gray: #efefef;
+
+body {
+  font-size: 1.7em;
+}
 
 .content {
-  margin-top: 5em;
+  margin-top: 23em;
+  padding: 2em;
+  position: relative;
 }
 
 .donate-container {
-  background-color: $red;
+  background-color: $orange;
   margin-left: -2em;
   margin-right: -2em;
-  position: absolute;
+  // position: absolute;
   width: 100%;
 }
 
 .donate {
   padding: 3em;
-  position: relative;
+  // position: relative;
 }
 
 .donate-items {
@@ -31,4 +39,27 @@ $pink: #f5d8d8;
 
 .donation-summary {
   margin-top: 4em;
+}
+
+.download-btn {
+  font-size: 20px;
+  padding: 1em;
+}
+
+.hero {
+  height: 400px;
+  margin-left: -1em;
+  position: absolute;
+  width: 100%;
+}
+
+.mobile {
+  background-color: $gray;
+  margin-left: -3em;
+  margin-right: -2.8em;
+  padding: 3em;
+}
+
+.mobile-img {
+  margin: 1.5em;
 }
