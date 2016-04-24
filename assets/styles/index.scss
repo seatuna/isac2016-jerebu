@@ -25,9 +25,9 @@ body {
 .donate-container {
   background-color: $orange;
   margin-left: -3em;
-  margin-right: -3em;
+  margin-right: -2em;
   position: relative;
-  width: 100%;
+  width: inherit;
 }
 
 .donate {
@@ -55,7 +55,7 @@ body {
 .hero {
   height: 400px;
   margin-left: -1em;
-  margin-right: -5.5em;
+  margin-right: -5.6em;
   position: absolute;
   width: 100%;
 }
