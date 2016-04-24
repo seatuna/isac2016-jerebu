@@ -13,20 +13,26 @@ body {
 .content {
   margin-top: 23em;
   padding: 2em;
-  position: relative;
+  position: absolute;
+}
+
+.contributors {
+  font-size: 1.5em;
+  padding: 2em;
+  position: absolute;
 }
 
 .donate-container {
   background-color: $orange;
-  margin-left: -2em;
-  margin-right: -2em;
-  // position: absolute;
+  margin-left: -3em;
+  margin-right: -3em;
+  position: relative;
   width: 100%;
 }
 
 .donate {
   padding: 3em;
-  // position: relative;
+  position: relative;
 }
 
 .donate-items {
@@ -49,6 +55,7 @@ body {
 .hero {
   height: 400px;
   margin-left: -1em;
+  margin-right: -5.5em;
   position: absolute;
   width: 100%;
 }
@@ -56,7 +63,7 @@ body {
 .mobile {
   background-color: $gray;
   margin-left: -3em;
-  margin-right: -2.8em;
+  margin-right: -2em;
   padding: 3em;
 }
 
